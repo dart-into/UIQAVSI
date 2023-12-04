@@ -1,0 +1,23 @@
+
+
+SAUD:
+  im_dir: /home/y222212065/Database/Enhanced/
+LIVE:
+  im_dir: /home/y222212065/Database/databaserelease2/
+UIED:
+  im_dir: /home/y222212065/Database/UIED/
+TID2013:
+  im_dir: /home/y222212065/Database/tid2013/
+SIQAD:
+  im_dir: /home/y222212065/Database/SIQAD/
+LIVEMD:
+  im_dir: /home/y222212065/Database/LIVEmultidistortiondatabase/To_Release/
+LIVEC:
+  im_dir: /home/y222212065/Database/LIVEwild/ChallengeDB_release/Images/
+patch_size: 32
+stride: 32
+
+train_ratio: 0.8
+val_ratio: 0.0
+test_ratio: 0.2
+
