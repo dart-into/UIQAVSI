@@ -44,6 +44,7 @@ Some available options:
 * `--batch_size`: Batch size.
 * `--epochs`:Epochs
 * `--current_epoch`:The number of random database partition results(50 times in total).
+* 
 Training for 50 rounds.
 ```
 bash Train.sh
