@@ -12,7 +12,13 @@ Code for UIQAVSI:Underwater Image Quality Assessment Method via the Fusion of Vi
 | LIVE MD   | https://live.ece.utexas.edu/research/Quality/live_multidistortedimage.html          |
 | CSIQ      | https://s2.smu.edu/~eclarson/csiq.html |
 | SIQAD     | https://pan.baidu.com/s/1rQKGkun98HMlt5rJj6Pjkw  pass: 1234 |
-
+## Requirements
+- PyTorch=1.7.0
+- Torchvision=0.8.1
+- numpy=1.21.6
+- scipy=1.7.3
+- h5py=3.7.0
+- opencv-python =4.7.0.72
 ## Usages
 
 ### Testing a single image
