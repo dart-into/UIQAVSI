@@ -1,3 +1,10 @@
+
+# Implemented by Tianhai Chen
+# Email: tianhai_chen@njnu.edu.cn
+# Date: 2023/12/5
+
+
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
