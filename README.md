@@ -1,5 +1,5 @@
 # UIQAVSI
-Code for UIQAVSI:Underwater Image Quality Assessment Method via the Fusion of Visual and Structural Information
+Code for UIQAVSI
 ![./Net](https://github.com/dart-into/UIQAVSI/blob/main/UIQAVSI/Net.png)
 
 ## Dataset
