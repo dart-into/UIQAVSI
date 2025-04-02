@@ -71,7 +71,7 @@ if __name__ == '__main__':
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = True
 
-    device = torch.device("cuda:7" if torch.cuda.is_available() else "CPU")
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "CPU")
 
     # index = [33, 17, 9, 84, 19, 70, 76, 44, 85, 11, 69, 13, 28, 88, 51, 77, 82, 71, 73, 61, 14, 38, 10, 1, 86, 67, 91, 60, 99, 12, 75, 21, 58, 2, 46, 63, 16, 57, 98, 5, 92, 47, 59, 83, 23, 43, 7, 29, 64, 30, 65, 8, 18, 45, 54, 62, 42, 31, 55, 96, 100, 66, 24, 20, 25, 97, 89, 87, 22, 34, 15, 3, 95, 90, 37, 93, 48, 80, 36, 81, 68, 4, 50, 94, 52, 40, 35, 72, 39, 41, 27, 74, 26, 6, 49, 53, 79, 56, 32, 78]
 
@@ -119,7 +119,7 @@ if __name__ == '__main__':
     test_dataset = ThreeIQADataset(dataset, config, index, "test")
     test_loader = torch.utils.data.DataLoader(test_dataset)
 
-    model = TwoStreamIQA().to(device)
+    model = ThreeStreamIQA().to(device)
 
     criterion = nn.L1Loss()
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
