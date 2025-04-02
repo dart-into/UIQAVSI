@@ -112,7 +112,7 @@ if __name__ == '__main__':
                                                batch_size=args.batch_size,
                                                shuffle=True,
                                                pin_memory=True,
-                                               num_workers=0)
+                                               num_workers=4)
     val_dataset = ThreeIQADataset(dataset, config, index, "val")
     val_loader = torch.utils.data.DataLoader(val_dataset)
 
